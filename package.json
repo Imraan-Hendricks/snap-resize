@@ -1,0 +1,44 @@
+{
+  "name": "@imraan-hendricks/snap-resize",
+  "version": "0.0.0",
+  "author": {
+    "name": "Imraan-Hendricks",
+    "email": "support@imraanhendricks.com"
+  },
+  "description": "SnapResize is a lightweight client-side image resizing NPM package that allows you to easily resize images before uploading them to the server.",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Imraan-Hendricks/snap-resize#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Imraan-Hendricks/snap-resize"
+  },
+  "bugs": {
+    "url": "https://github.com/Imraan-Hendricks/snap-resize/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "client-side",
+    "upload",
+    "aspect ratio",
+    "quality",
+    "performance",
+    "bandwidth",
+    "optimization",
+    "front-end",
+    "TypeScript"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
